@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+.image-gallery-svg {
+  color: #e8ad13;
+}
+input[type="checkbox"] {
+  accent-color: black;
+}
+.input-label input[type="radio"] {
+  display: none;
+}
